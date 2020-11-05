@@ -1,3 +1,155 @@
 @charset "utf-8";
+
+
 /* CSS Document */
+.Konteiner {
+background: #C3C0C0;
+width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+.Peamine_päis {
+	width: 100%;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid #2C9AB7;
+}
+
+.Peamine_päis .Logo {
+	border-radius: 50%;
+	clear: both;
+}
+
+
+.Teine_päis {
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #388332;
+	clear: left;
+}
+
+
+.Teine_päis {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 1px;
+	padding-bottom: 40px;
+}
+
+.Konteiner .Teine_päis ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.Teine_päis ul li {
+	list-style: none;
+	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	font-family: "Source Sans Pro";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.Teine_päis ul li:hover {
+	color: #C33535;
+	cursor: pointer;
+}
+
+.Teine_päis .Bänner {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+}
+
+.Vasak_menüü {
+	font-family: "Source Sans Pro";
+	float: left;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: white;
+	padding-top: 36px;
+	height: 784px;
+	
+}
+
+.Vasak_menüü .Menüü {
+	float: left
+	text-align: left;
+	color: rgba(146,146,146,1.00);
+	position: relative;
+	left: 0%;
+
+}
+
+.Artiklid {
+	color: rgba(146,146,146,1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+	
+	
+}
+
+.Parem_menüü {
+	font-family: "Source Sans Pro";
+	float: right;
+	width: 20%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	background-color: white;
+	padding-top: 36px;
+	height: 784px;
+	
+	
+	
+}
+
+.Parem_menüü .Menüü_bänner {
+	width: 60%;
+	margin-top: 0px;
+	float: right;
+	
+	
+}
+
+.Autoriõigused {
+	text-align: center;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+	font-family: "Source Sans Pro";
+}
+
+
+
 
