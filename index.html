@@ -9,8 +9,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="Author" content="Kristian Kõiv" />
 	<!--Viitamine stiili failile-->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
+
 <body>
 <div class="Konteiner"></div>
 	<header>
@@ -22,62 +23,87 @@
 		
 		
 	</div>
-	<nav class="Teine_päis" id="Menüü">
-		<ul>
-		<li>Kodu</li>
-		<li>Külalisele</li>
-		<li>Kontakt</li>
-		<li>Lehekülg 404</li>
-		</ul>
+	<div class="Teine_päis">
 		
-		</nav>
+  <a class="active" href="#home">Kodu</a>
+  <a href="#külalisele">Külalisele</a>
+  <a href="#kontakt">Kontakt</a>
+  <a href="#404">Lehekülg 404</a>
+		
+		</div>
 		<div class="Bänner">
 		<img src="../Koduleht/demo-bänner.png" alt="Lehe_bänner">
 		
 		</div>
-	</header>
-	<section class="Vasak_menüü">
-	<div id="Menüü">
+
+ 
+		<section class="vertical-menu">
+	<div id="Menüü_vasak">
 		<nav class="Lingid">
-		<li><a href="#" title="Link">Link 1</a></li>
-        <li><a href="#" title="Link">Link 2</a></li>
-        <li><a href="#" title="Link">Link 3</a></li>
-		<li><a href="#" title="Link">Link 4</a></li>
-        <li><a href="#" title="Link">Link 5</a></li>
-        <li><a href="#" title="Link">Link 6</a></li>
-		
-		
-		
-		
+		<a href="#" class="active">Kodu</a>
+		<a href="#" title="Link">Link 1</a>
+        <a href="#" title="Link">Link 2</a>
+        <a href="#" title="Link">Link 3</a>
+		<a href="#" title="Link">Link 4</a>
+        <a href="#" title="Link">Link 5</a>
+        <a href="#" title="Link">Link 6</a>
 		</nav>
 		</div>
 	</section>
+		
+		
+		
+		<section class="Parem_menüü">
+		
+	<nav>
+        <ul>
+          <li><strong>Kiirlingid</strong></li>
+          <li><a href="#" title="Link">Link 1</a></li>
+		  <li><a href="#" title="Link">Link 2</a></li>
+          <li><a href="#" title="Link">Link 3</a></li>
+          <li><a href="#" title="Link">Link 4</a></li>
+          <li><a href="#" title="Link">Link 5</a></li>
+          <li><a href="#" title="Link">Link 6</a></li>
+        </ul>
+      </nav>
+	<div id="Menüü_bänner">
+		<img src="bänner 1.png" alt=""/>
+		<img src="bänner 2.png" alt=""/>
+		<img src="bänner 3.png" alt=""/>
+		<img src="bänner 4.png" alt=""/>
+		  </div>
+	<div class="Statistika">
+			<table style="width:100%">
+  <tr>
+    <th>Rahvaarv:</th>
+  </tr>
+  <tr>
+    <td>500</td>
+  </tr>
+
+</table>
+                </div>
+			
+			
+	</section>
+		
+		
+	</header>
+	
 	
 	<section id="Artiklid">
-	<h1><!-- Blog title -->Post Title</h1>
-      <h3><!-- Tagline -->SOME AWESOME HERO TAGLINE</h3>
+	<h1><!-- Tiitel -->Tiitelleht</h1>
+      <h3><!-- Alapealkiri -->Mingid artiklid</h3>
       
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 	</section>
-	<section class="Parem_menüü">
-		<div id="Menüü_bänner"><img src="file:///C|/Users/krist/AppData/Roaming/Adobe/Dreamweaver 2020/en_US/Configuration/Temp/Assets/eamBC1B.tmp/BlogPostAssets/images/300x250.gif" alt=""/></div>
-	<nav>
-        <ul>
-          <li><a href="#" title="Link">Link1</a></li>
-          <li><a href="#" title="Link">Link2</a></li>
-          <li><a href="#" title="Link">Link3</a></li>
-          <li><a href="#" title="Link">Link4</a></li>
-          <li><a href="#" title="Link">Link5</a></li>
-          <li><a href="#" title="Link">Link6</a></li>
-        </ul>
-      </nav>
 	
 	
-	</section>
 	
+</body>
+	<br><br><br><br><br><br>
 	<footer class="Jalus">
 	<div class="Autoriõigused">&copy;2020 - <strong>Kristian Kõiv TAK20</strong></div>
 	</footer>
-</body>
 </html>
